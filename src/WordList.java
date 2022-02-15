@@ -1,3 +1,5 @@
+import lombok.Getter;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -5,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+@Getter
 public class WordList {
 
     private static final String WORD_LIST_FILE_PATH = "english.txt";
@@ -13,10 +16,6 @@ public class WordList {
     public WordList() {
         FileInputStream is = loadFileInputStream();
         wordList = initializeWordList(is);
-    }
-
-    public List<String> getWordList() {
-        return wordList;
     }
 
     private FileInputStream loadFileInputStream() {

@@ -7,7 +7,7 @@ public class SeedFactory {
         WordList wordList = new WordList();
         RandomSeed seed = new RandomSeed(wordList.getWordList());
 
-        System.out.println(seed.getPartialSeed());
+        System.out.println(seed.getSeed());
 
 
         String originalString = "doggo";
