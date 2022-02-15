@@ -3,7 +3,6 @@ import java.util.Random;
 
 public class RandomWordGenerator {
     private static final Random RNG = new Random();
-
     private RandomWordGenerator() {
     }
 
