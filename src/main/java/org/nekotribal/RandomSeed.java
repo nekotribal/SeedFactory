@@ -1,6 +1,8 @@
-import exception.BitsNumberMismatchException;
+package org.nekotribal;
+
+import org.nekotribal.exception.BitsNumberMismatchException;
 import lombok.Getter;
-import seedfactory.ByteToSHA256;
+import org.nekotribal.seedfactory.ByteToSHA256;
 
 import java.util.ArrayList;
 import java.util.List;

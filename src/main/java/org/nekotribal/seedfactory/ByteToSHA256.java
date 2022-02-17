@@ -1,4 +1,4 @@
-package seedfactory;
+package org.nekotribal.seedfactory;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
