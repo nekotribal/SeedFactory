@@ -1,10 +1,11 @@
 package org.nekotribal;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class SeedFactory {
     public static void main(String[] args) {
-        WordList wordList = new WordList();
-        RandomSeed seed = new RandomSeed(wordList.getWordList());
-
-        System.out.println(seed.getSeed());
+        SpringApplication.run(SeedFactory.class, args);
     }
 }
